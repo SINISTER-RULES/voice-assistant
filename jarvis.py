@@ -10,7 +10,7 @@ from tkinter import filedialog      #for the dialog box to select file
 import pyautogui                    #for the image to text converter
 from PIL import Image
 from pytesseract import *
-pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'   #have to install PyTesseract in internal storage
 
 tk = tkinter.Tk()
 tk.withdraw()
